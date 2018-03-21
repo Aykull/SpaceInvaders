@@ -12,7 +12,8 @@ public class BubbleSort <T extends Comparable <T>> {
 				Node next = list.getHead().getNext();
 				for (int j = 0; j < list.getSize() - 1; j++) {
 					//hacer el comparable... da -1.0.+1
-					if (current.getData().compareTo(next.getData()) == 0) {
+					if (current.getData().compareTo(next.getData()) == -1) {
+						System.out.println("");
 					}
 				}
 			}
