@@ -6,7 +6,7 @@ package lists;
  * @param <T>
  */
 
-public class DoubleLL<T> {
+public class DoubleLL<T extends Comparable<T>> {
 	
 	private Node<T> head;
 	private Node<T> tail;	

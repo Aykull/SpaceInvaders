@@ -13,7 +13,7 @@ public class Display extends Canvas implements Runnable{
 		JFrame frame = new JFrame();
 		frame.add(display);
 		frame.pack();
-		frame.setTitle("Space Invaders");
+		frame.setTitle("Space Invaders!");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);
 		frame.setVisible(true);
