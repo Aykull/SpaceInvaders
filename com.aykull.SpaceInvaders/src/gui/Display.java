@@ -4,11 +4,15 @@ import java.awt.Canvas;
 
 import javax.swing.JFrame;
 
+import lists.BubbleSort;
+import lists.SimpleCL;
+
 public class Display extends Canvas implements Runnable{
 	
 	private static final long serialVersionUID = 1L;
 
 	public static void main(String[] args) {
+
 		Display display = new Display();
 		JFrame frame = new JFrame();
 		frame.add(display);

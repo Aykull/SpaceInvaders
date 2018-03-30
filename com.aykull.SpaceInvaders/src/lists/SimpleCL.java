@@ -57,6 +57,7 @@ public class SimpleCL<T extends Comparable<T>> {
 				tail.setNext(node);
 				node.setNext(head);
 				tail = node;
+				size++;
 			}
 		}
 	}
