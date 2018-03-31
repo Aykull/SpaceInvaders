@@ -5,5 +5,6 @@ public abstract class Invaders {
 	public void movimiento() {
 		
 	}
+	
 
 }

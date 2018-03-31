@@ -83,6 +83,10 @@ public class SimpleLL <T extends Comparable<T>> {
 		}
 	}
 	
+	public void deleteAll() {
+		
+		
+	}
 
 
 }
