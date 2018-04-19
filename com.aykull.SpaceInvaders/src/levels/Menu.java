@@ -16,6 +16,7 @@ import javax.swing.JTextField;
 
 public class Menu {
 	public static void main(String[] args) {
+		//Se crea el frame para el menu
 		Frame frame = new Frame();
 		frame.setTitle("MENU");
 		frame.setResizable(false);
@@ -24,6 +25,7 @@ public class Menu {
 
 }
 class Frame extends JFrame{
+	//caracteristicas del frame
 		public Frame(){
 		
 			setBounds(450,300,280,200);
@@ -39,7 +41,8 @@ class Frame extends JFrame{
 }
 
 class Panel extends JPanel{
-	
+	//panel dentro del frame
+	//contiene un espacio para texto y un boton
 	private JTextField text;
 	
 	private JButton button;
@@ -67,7 +70,7 @@ class Panel extends JPanel{
 		add(button);
 	}
 	
-	
+	//Cargar imagenes
 	@Override
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
@@ -78,7 +81,7 @@ class Panel extends JPanel{
 	}
 	
 	
-	
+	//Creacion de evento para iniciar el primer nivel
 	private class newGame implements ActionListener{
 
 		@Override
@@ -86,7 +89,8 @@ class Panel extends JPanel{
 			// TODO Auto-generated method stub
 			System.out.println("Inicia");
 			System.out.println(text.getText());
-			L1 l1 = new L1();
+			Levels l1 = new Levels();
+			
 		}
 		
 	}

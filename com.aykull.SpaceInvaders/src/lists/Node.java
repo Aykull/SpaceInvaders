@@ -12,14 +12,14 @@ public class Node<T extends Comparable <T>> {
 	private Node<T> next;
 	private Node<T> previous;
 	private T data;
-	
+	//Constructor
 	public Node(T data) {
 		this.data= data;
 		this.next = null;
 		this.previous = null;
 	}
 
-	
+	//Getters y Setters
 	public Node<T> getNext() {
 		return next;
 	}
@@ -43,10 +43,5 @@ public class Node<T extends Comparable <T>> {
 	public void setData(T data) {
 		this.data = data;
 	}
-
-
-	
-	
-	
 
 }

@@ -6,14 +6,15 @@ import java.awt.event.KeyEvent;
 import javax.swing.ImageIcon;
 
 public class Ship {
+	//Imagen para la nave
 	private String van = "van.png";
-	
+	//contadores para movimiento
 	private int dx;
 	
 	private int x;
 	private int y;
 
-	
+	//cargar la imagen
 	private Image image;
 	
 	public Ship() {
@@ -22,7 +23,7 @@ public class Ship {
 		ImageIcon img = new ImageIcon(this.getClass().getResource(van));
 		image = img.getImage();
 	}
-	
+	//logica del movimieto
 	public void move() {
 		x += dx;
 		
@@ -34,7 +35,7 @@ public class Ship {
 		return y;
 	}
 
-	
+	//movimiento de la imagen
 	public Image haveImage() {
 		return image;
 	}

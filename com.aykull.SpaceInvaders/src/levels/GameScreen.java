@@ -4,6 +4,7 @@ import javax.swing.JFrame;
 
 
 public class GameScreen extends JFrame  {
+	//base paracrear la pantalla de juego
 	public GameScreen() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		add(new Draw());
@@ -15,11 +16,7 @@ public class GameScreen extends JFrame  {
 		
 	}
 	
-	
-	public static void main(String[] args) {
-		new GameScreen();
-		
-	}
+
 }
 
 

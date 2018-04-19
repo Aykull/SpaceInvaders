@@ -14,9 +14,7 @@ public class SimpleCL<T extends Comparable<T>> {
 		return size;
 	}
 	
-	public void setSize(int size) {
-		this.size = size;
-	}
+	
 	/**
 	 * Constructor
 	 */
@@ -103,14 +101,7 @@ public class SimpleCL<T extends Comparable<T>> {
 			}
 		}
 	}
-	public void checo() {
-		Node<T> temp=this.head;
-		Node <T> temp2= this.tail;
-		if(temp.getData().compareTo( temp2.getData())==0);
-		
-		
-		
-	}
+	
 
 }
 

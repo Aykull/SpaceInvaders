@@ -41,6 +41,7 @@ public class SimpleLL <T extends Comparable<T>> {
 				temp = temp.getNext();
 			}
 			temp.setNext(node);
+			size++;
 		}
 		return true;
 	}

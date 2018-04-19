@@ -3,7 +3,7 @@ package lists;
 
 public  class BubbleSort <T extends Comparable <T>> {
 
-
+//clase que realiza el algoritmo de bubblesort
 	@SuppressWarnings("rawtypes")
 	public  void bubbleSort(SimpleCL list ) {
 
