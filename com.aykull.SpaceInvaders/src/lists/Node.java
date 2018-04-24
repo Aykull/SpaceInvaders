@@ -7,7 +7,7 @@ package lists;
  * @param <T>
  */
 
-public class Node<T extends Comparable <T>> {
+public class Node<T> {
 	
 	private Node<T> next;
 	private Node<T> previous;
